@@ -1,0 +1,53 @@
+/* .App {
+  text-align: center;
+} */
+
+/* table, th, td{
+  border: 1px black;
+} */
+
+table,td,th {
+  border-collapse: collapse;
+  margin: 15px;
+  border: 1px solid rgb(103, 103, 223);
+}
+
+.userList{
+  border: 1px solid black;
+}
+tr:hover {
+  background-color: #f5f5f5
+} 
+.columnHeader{
+  width: 100%;
+  border:0px;
+  font-size:20px;
+  padding: 10px
+} 
+
+td{
+  padding: 10px;
+}
+
+.searchField{
+  border:0;
+  padding: 8px;
+  border-bottom: 1px solid;
+  background: transparent;
+}
+
+.pagination button{
+  padding:8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  background-color: white
+}
+
+.pagination button.active{
+  background-color: rgb(135, 135, 223);
+  border: 1px solid #ddd;
+}
+
+.pagination button:hover{
+  background-color: #ddd;
+}
